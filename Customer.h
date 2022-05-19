@@ -12,6 +12,14 @@ string username;
 string password;
 
 public:
+Customer(){
+user_id = 0;;
+type = '';
+fname = '';
+lname = '';
+address = '';
+string email;
+}
 void Register();
 s
 };
