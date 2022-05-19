@@ -5,16 +5,17 @@ using namespace std;
 
 class feedBack {
   private:
-    int roomno;
+    int feedbackId;
+    string feedbackcontent;
+    replyStatus
   public:
    feedBack(){};
    feedBack(int no) {
-       roomno = no;
-    };
-    void Display() {
-       cout << "Class Room " << roomno << endl;
+       feedbackId 
+        = no;
     };
    ~feedBack() {
-      cout << "Deleting Room " << roomno << endl;
+      cout << "Deleting Feedback " << feedbackId 
+      << endl;
     }
 };
