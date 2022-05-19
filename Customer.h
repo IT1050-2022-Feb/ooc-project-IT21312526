@@ -1,36 +1,20 @@
-class Customer{
+class Customer
+{
 protected:
-int user_id;
-char type[1];
-string fname;
-string lname;
-string address;
-string email;
+  int user_id;
+  char type[1];
+  string fname;
+  string lname;
+  string address;
+  string email;
 
 private:
-string username;
-string password;
+  string username;
+  string password;
 
 public:
-Customer(){
-user_id = 0;
-type = '';
-fname = '';
-lname = '';
-address = '';
-email = '';
-  }
-
-Customer(int id,char ){
-user_id = 0;
-type = '';
-fname = '';
-lname = '';
-address = '';
-email = '';
-  }
-
-
-void Register();
-s
+  Customer();
+  Customer(int id, char tp[], string fn, string ln, string addr, string mail, string un, string pass);
+  void displayCustomer();
+  ~Customer();
 };

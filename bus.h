@@ -1,4 +1,4 @@
-#include<cstring>
+-#include<cstring>
 
 Class Bus
 {
