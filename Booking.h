@@ -1,6 +1,7 @@
 #include<iostream>
 #include<cstring>
-#include"bus.h"
+#include"Bus.h"
+#include"Customer.h"
 
 using namespace std;
 
@@ -14,11 +15,12 @@ class Booking
 	  char paymentType;
 	  float travelDistance;
    	Bus *bookedBus; //an object of Bus as attribute
+    Customer *cus ; //an object of customer
    
    public: 
     Booking();
    	Booking(int ID, string date , int seats,
-	string ctype, char ptype, float distance ,Bus *bus) ;
+	string ctype, char ptype, float distance ,Bus *bus , Customer *cus) ;
 	  double calcPrice();
  	  void Details(); 
     ~Booking();

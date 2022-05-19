@@ -1,4 +1,5 @@
 #include "Route.h"
+#include "Booking.h"
 
 define SIZE=5;
 
@@ -9,7 +10,8 @@ Class Bus
     string Seats;
     string arrivalTime;
     string departureTime;
-    Route *rt
+    Route *rt;
+    Booking *bk[SIZE] ;
 
   public:
     Bus();

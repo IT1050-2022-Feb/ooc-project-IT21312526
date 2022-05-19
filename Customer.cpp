@@ -32,6 +32,8 @@ Customer::Customer(int id, char tp[], string fn, string ln, string addr, string 
 
 Customer::~Customer()
 {
-  cout << "Deleting Customer" << endl
-       << endl;
+  cout << "Deleting Customer" << endl ;
+  
+  for(int i ; i < SIZE ; i++)
+    delete feed[i] ;
 }

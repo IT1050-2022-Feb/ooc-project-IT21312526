@@ -1,6 +1,6 @@
 #include <cstring>
 #include <iostream>
-#include"customer.h"
+#include"Customer.h"
 
 using namespace std;
 
