@@ -13,13 +13,24 @@ string password;
 
 public:
 Customer(){
-user_id = 0;;
+user_id = 0;
 type = '';
 fname = '';
 lname = '';
 address = '';
 email = '';
-}
+  }
+
+Customer(int id,char ){
+user_id = 0;
+type = '';
+fname = '';
+lname = '';
+address = '';
+email = '';
+  }
+
+
 void Register();
 s
 };
