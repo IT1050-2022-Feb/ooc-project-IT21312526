@@ -4,7 +4,17 @@
 
 using namespace std;
 
-   	Bpooking::Booking(int ID, string date , int seats,
+   	Booking::Booking() 
+   	{  
+		  bookingId = 0;
+			bookingDate = "";
+			noOfSeats = 0;
+			cardType = "";
+			paymentType = "";
+			travelDistance = 0;
+   	  bookedBus = 0;
+   	} 
+   	Booking::Booking(int ID, string date , int seats,
 	string ctype, char ptype, float distance ,Bus *bus) 
    	{  
 		  bookingId = ID;
@@ -31,7 +41,7 @@ using namespace std;
    	  cout<<"You will be travelling in " <<bus<<" bus"<<endl;
     
 	} 
-   ~Booking::Booking() {
+   Booking::~Booking() {
       cout << "Cancelling Booking made " << bookingId 
       << endl;
     }

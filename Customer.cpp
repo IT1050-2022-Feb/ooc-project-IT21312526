@@ -4,9 +4,11 @@
 
 using namespace std;
 
+define SIZE = 5;
+
 Customer::Customer()
 {
-  user_id = 0;
+  userid = 0;
   type = '';
   fname = '';
   lname = '';
@@ -18,7 +20,7 @@ Customer::Customer()
 
 Customer::Customer(int id, char tp[], string fn, string ln, string addr, string mail, string un, string pass)
 {
-  user_id = id;
+  userid = id;
   strcpy(type, tp);
   fname = fn;
   lname = ln;
@@ -28,17 +30,8 @@ Customer::Customer(int id, char tp[], string fn, string ln, string addr, string 
   password = pass;
 }
 
-void Customer::displayCustomer()
+Customer::~Customer()
 {
-  cout << "Id: " << user_id << endl;
-  cout << "Type: " << type << endl;
-  cout << "First Name: " << fname << endl;
-  cout << "Last Name: " << lname << endl;
-  cout << "Address: " << address << endl;
-  cout << "Email: " << email << endl;
-  cout << "##########################" << endl << endl;
-}
-
-Customer::~Customer(){
-  cout<<"Deleting Customer"<<endl<<endl;
+  cout << "Deleting Customer" << endl
+       << endl;
 }
