@@ -4,5 +4,7 @@ Class Bus
 {
   private:
     int bus_id;
-    
+    string busNo;
+    string driverName;
+  
 }
