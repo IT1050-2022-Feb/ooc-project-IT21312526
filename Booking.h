@@ -15,7 +15,7 @@ class Booking
 	  char paymentType;
 	  float travelDistance;
    	Bus *bookedBus; //an object of Bus as attribute
-    Customer *cus ; //an object of customer
+    Customer *bookedcustomer ; //an object of customer
    
    public: 
     Booking();
