@@ -14,7 +14,7 @@ class feedBack {
     void Display() {
        cout << "Class Room " << roomno << endl;
     };
-     feedBack() {
+   ~feedBack() {
       cout << "Deleting Room " << roomno << endl;
     }
 };

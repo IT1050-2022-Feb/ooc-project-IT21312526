@@ -18,7 +18,7 @@ type = '';
 fname = '';
 lname = '';
 address = '';
-string email;
+email = '';
 }
 void Register();
 s
