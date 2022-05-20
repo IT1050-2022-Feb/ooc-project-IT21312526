@@ -5,6 +5,7 @@
 #include "Route.h"
 #include "Booking.h"
 #include "Feedback.h"
+#include <cstring>
 
 using namespace std ;
 
