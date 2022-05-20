@@ -28,6 +28,7 @@ Class Bus
     void getDepartureTime();
       
     void displayBus();
+    
     ~Bus();
 
 
