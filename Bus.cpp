@@ -4,7 +4,7 @@
 
 using namespaces std;
 
-Bus::Bus ()
+Bus::Bus()
     {
        Bus_id = 0;
        Seats = 0;
@@ -14,11 +14,11 @@ Bus::Bus ()
 
 Bus::Bus(int bus_id, string seats, string aTime, string dTime, Route *r)
     {
-       Bus_id= bus_id;
+       Bus_id= bus_id ;
        Seats= seats ;
-       arrivalTime=aTime;
-       depatureTime=dTime;  
-       rt = r;
+       arrivalTime=aTime ;
+       depatureTime=dTime ;  
+       rt = r ;
     }
 
 Bus::~Bus()
