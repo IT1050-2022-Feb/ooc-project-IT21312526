@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string.h>
-#include "Bus.h";
+#include "Bus.h"
 #include "Route.h"
 
 using namespaces std;
