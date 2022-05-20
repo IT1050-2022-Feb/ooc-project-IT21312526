@@ -1,7 +1,7 @@
 #include "Route.h"
 #include "Booking.h"
 
-define SIZE=5;
+define SIZE= 5;
 
 Class Bus
 {
@@ -28,7 +28,7 @@ Class Bus
     string getDepartureTime();
       
     void displayBus();
-    void bookBus(Booking *bk);
+    void BookBus(Booking *bk);
     
     ~Bus();
 
