@@ -3,15 +3,15 @@
 #include"Feedback.h"
 
 Feedback::Feedback(){
-      feedback_Id = 0;
-      feedback_Content ="";
+      feedbackId = 0;
+      feedbackContent ="";
 
        
 }
   Feedback:: Feedback(int id, string content ) {
        
-       feedback_Id = id;
-       feedback_Content = content;
+       feedbackId = id;
+       feedbackContent = content;
 
        
     }

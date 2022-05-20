@@ -6,8 +6,8 @@ using namespace std;
 
 class Feedback {
   private:
-    int feedback_Id;
-    string feedback_Content;
+    int feedbackId;
+    string feedbackContent;
 
   public:
    Feedback(){};
