@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cstring>
-#include"booking.h"
+#include"Booking.h"
 
 using namespace std;
 

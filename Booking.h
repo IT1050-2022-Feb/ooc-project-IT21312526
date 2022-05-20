@@ -8,14 +8,14 @@ using namespace std;
 class Booking
 {
    private:
-     	int bookingId;
-  	  string bookingDate;
-  	  int noOfSeats;
-  	  string cardType;
-  	  char paymentType;
-  	  float travelDistance;
-     	Bus *bookedBus; //an object of Bus as attribute
-      Customer *bookedcustomer ; //an object of customer
+     int bookingId;
+  	 string bookingDate;
+  	 int noOfSeats;
+  	 string cardType;
+  	 char paymentType;
+  	 float travelDistance;
+     Bus *bookedBus; //an object of Bus as attribute
+     Customer *bookedcustomer ; //an object of customer
      
    public: 
     Booking ();
