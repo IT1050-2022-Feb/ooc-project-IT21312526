@@ -33,19 +33,16 @@ public:
   void setPassword(string ps);
 
   int getUserid();
-  void getType(c);
-  void getFname();
-  void getLname();
-  void getAddress();
-  void getEmail();
-  void getUsername();
-  void getPassword();
+  char getType();
+  string getFname();
+  string getLname();
+  string getAddress();
+  string getEmail();
+  string getUsername();
+  string getPassword();
 
   void addFeedback(int fd_no1, int fbid1, string cntnt1);
   void displayFeedback();
-
-  void addBooking(int bk_no, int bkid1, string bkdt1, int seat, string cardt, string paymentt, float dist);
-  void displayBooking();
 
   void viewBus();
   void addBooking(Booking *b);

@@ -23,11 +23,13 @@ Class Bus
     void setDepartureTime(string dep);
 
     int getBus_id();
-    int getSeats();
-    void getArrivalTime();
-    void getDepartureTime();
+    string getSeats();
+    string getArrivalTime();
+    string getDepartureTime();
       
     void displayBus();
+    void bookBus()
+    
     ~Bus();
 
 

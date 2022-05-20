@@ -15,8 +15,8 @@ public:
     void setDestination(string dest);
 
     int getRoute_id();
-    void getSource();
-    void getDestination();
+    string getSource();
+    string getDestination();
 
     void displayRoute();
 

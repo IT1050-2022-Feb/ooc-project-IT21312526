@@ -13,10 +13,10 @@ using namespace std;
 			paymentType = "";
 			travelDistance = 0;
    	} 
-   Booking::Booking (int ID, string date , int seats,
+   Booking::Booking (int id, string date , int seats,
 	string ctype, char ptype, float distance ,Bus *bus, Customer *cus) 
    	{  
-		  bookingId = ID;
+		  bookingId = id;
 			bookingDate = date;
 			noOfSeats = seats;
 			cardType = ctype;

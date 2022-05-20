@@ -19,8 +19,9 @@ class Booking
      
    public: 
     Booking ();
-   	Booking (int ID, string date , int seats,
+   	Booking (int id, string date , int seats,
 	string ctype, char ptype, float distance ,Bus *bus , Customer *cus) ;
+
     void setId (int id);
     void setDate (string date);
     void setSeat (int seats);
@@ -29,15 +30,16 @@ class Booking
     void setDistance (float distance);
     void setBus (Bus *bus);
     void setCustomer (Customer *cus);
+
     int getId ();
-    string setDate ();
-    int setSeat ();
-    string setCType ();
-    char setPtype ();
-    float setDistance ();
-    int setBus ();
-    int setCustomer ();
+    string getDate ();
+    int getSeat ();
+    string getCType ();
+    char getPtype ();
+    float getDistance ();
+    int getBus ();
+    int getCustomer ();
 	  double calcPrice ();
- 	  void Details (); 
+ 	  void displayDetails (); 
     ~Booking ();
 };
