@@ -4,13 +4,13 @@
 
 Feedback::Feedback(){
       feedbackId = 0;
-       feedbackContent ="";
+      feedbackContent ="";
 
        
 }
-  Feedback:: Feedback(int no, string content ) {
+  Feedback:: Feedback(int id, string content ) {
        
-       feedbackId = no;
+       feedbackId = id;
        feedbackContent = content;
 
        
@@ -19,6 +19,10 @@ Feedback::Feedback(){
       cout<<"Your feed back id is : "<<feedbackId<<endl;
       cout<<"You have said that '"<<feedbackContent<<"'"<<endl;
     }
+   Feedback::void setId(int id){}
+   Feedback::void setContent( string content ){}
+   Feedback::int getId(){}
+   Feedback::string getContent(){}
    Feedback::~Feedback() {
       cout << "Deleting Feedback given " << feedbackId       << endl;
     }

@@ -12,7 +12,7 @@ Bus::Bus()
        depatureTime = "";      
     }
 
-Bus::Bus(int bus_id, string seats, string aTime, string dTime)
+Bus::Bus(int bus_id, string seats, string aTime, string dTime, Route *r)
     {
        Bus_id= bus_id;
        Seats= seats ;

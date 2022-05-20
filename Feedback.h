@@ -11,7 +11,11 @@ class Feedback {
 
   public:
    Feedback(){};
-   Feedback(int no, string content );
+   Feedback(int id, string content );
+   void setId(int id);
+   void setContent( string content );
+   int getId();
+   string getContent();
    void display();
    ~Feedback() {};
 };
