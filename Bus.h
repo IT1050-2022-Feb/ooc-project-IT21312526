@@ -6,11 +6,11 @@ define SIZE=5;
 Class Bus
 {
   private:
-    int Bus_id;
-    string Seats;
-    string arrivalTime;
-    string departureTime;
-    Route *rt;
+    int Bus_id ;
+    string Seats ;
+    string arrivalTime ;
+    string departureTime ;
+    Route *rt ;
     Booking *bk[SIZE] ;
 
   public:
