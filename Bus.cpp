@@ -4,7 +4,7 @@
 
 using namespaces std;
 
-Bus::Bus()
+Bus::Bus ()
     {
        Bus_id = 0;
        Seats = 0;
@@ -23,7 +23,7 @@ Bus::Bus(int bus_id, string seats, string aTime, string dTime, Route *r)
 
 Bus::~Bus()
     {
-      cout<<"Deleting Bus" <<  Bus_id << endl;
+      cout<<"Deleting Bus " <<  Bus_id << endl;
     }
 
   

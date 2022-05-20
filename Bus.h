@@ -28,7 +28,7 @@ Class Bus
     string getDepartureTime();
       
     void displayBus();
-    void bookBus()
+    void bookBus(Booking *bk);
     
     ~Bus();
 
